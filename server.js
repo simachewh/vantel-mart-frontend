@@ -24,5 +24,5 @@ app.get("*", function (req, res) {
 });
 
 // Start the server on port 8080 (http://localhost:8080)
-var litsner = app.listen(process.env.PORT || 8080);
+var litsner = app.listen(Number(process.env.PORT || 8080));
 require("util").log("Starting server at " + litsner.address().port);
