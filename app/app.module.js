@@ -9,6 +9,7 @@ angular
 angular
     .module("vantelMart", [
         "ngRoute",
+        "ui.bootstrap",
         "app.services",
         "app.controllers"
     ]);

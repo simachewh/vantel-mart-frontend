@@ -11,10 +11,11 @@
     function routeConfig($routeProvider, $locationProvider) {
         $routeProvider
             .when("/", {
-                templateUrl: "../index.html",
+                templateUrl: "../views/pages/home.html",
                 controller: "ProductsController",
                 controllerAs: "vm"
-            })
+            });
+        $locationProvider.html5Mode(true);
     };
 
 })();

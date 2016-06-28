@@ -18,6 +18,9 @@
         factory.update = update;
         factory.deleteOne = deleteOne;
 
+
+        return factory;
+
         /**
          *
          * @param id
@@ -62,6 +65,5 @@
         function deleteOne(id) {
             return $http.delete(productsPath, id);
         };
-
     };
 })();
