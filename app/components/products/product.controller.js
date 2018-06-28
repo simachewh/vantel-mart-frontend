@@ -25,7 +25,7 @@
         vm.selectedAlphabet = "A";
         vm.pager = {};
         vm.pager.page = 1;
-        vm.pager.itemsPerPage = 3;
+        vm.pager.itemsPerPage = 5;
         vm.pager.pagesInPager = 5;
         vm.pager.currentPage = 1;
         vm.pager.totalPages = 1;
